@@ -1,0 +1,93 @@
+.galleryTop{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+.uzbSila{
+    display: flex;
+    justify-content: center;
+}
+.uzbSila > span{
+    color: #163561;
+    text-align: center;
+    font-family: Catamaran;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 116.6%; /* 81.62px */
+    letter-spacing: 2.1px;
+}
+.uzbSila > h2{
+    color: #FBB400;
+    font-family: Catamaran;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 116.6%;
+    letter-spacing: 2.1px; 
+}
+.galleryMiddle{
+    
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.galleryTopDiv1{
+    width: 434.82px;
+    height: 434.82px;
+    flex-shrink: 0;
+    background: url('../../assets/img/handsome-man-barbershop-shaving-beard_1303-26257.png');
+}
+.galleryTopDiv6{
+    width: 434.82px;
+    height: 434.82px;
+    flex-shrink: 0;
+    background: url('../../assets/img/handsome-man-barbershop-shaving-beard_1303-26259.png');
+}
+.galleryTopDiv4{
+    width: 434.82px;
+    height: 434.82px;
+    flex-shrink: 0;
+    background: url('../../assets/img/handsome-man-barbershop-shaving-beard_1303-26258.png');
+}
+.galleryTopDiv5{
+    width: 434.82px;
+    height: 434.82px;
+    flex-shrink: 0;
+    background: url('../../assets/img/handsome-man-shaving-beard-barbershop_1303-26261.png');
+}
+.galleryTopDiv2{
+    width: 434.82px;
+    height: 434.82px;
+    flex-shrink: 0;
+    background: url('../../assets/img/young-man-barbershop-trimming-hair_1303-26253.png');
+}
+.galleryTopDiv3{
+ 
+    width: 434.82px;
+    height: 434.82px;
+    flex-shrink: 0;
+    background: url('../../assets/img/young-man-barbershop-trimming-hair_1303-26256.png');   
+}
+.galleryBottom{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.galleryBottom > button{
+    color: #FFF;
+    font-family: Catamaran;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150.6%; /* 30.12px */
+    letter-spacing: 0.6px;
+    width: 188px;
+    height: 75px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #99BAED;   
+}

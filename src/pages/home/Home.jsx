@@ -1,4 +1,5 @@
 import Affair from "../../components/Affair/affair";
+import Gallery from "../../components/Gallery/gallery";
 import Hero from "../../components/Hero/hero";
 import History from "../../components/History/history";
 import Navbar from "../../components/Navbar/navbar";
@@ -10,6 +11,7 @@ const HomePage = () => {
             <Hero />
             <History />
             <Affair />
+            <Gallery />
         </>
     );  
 }
