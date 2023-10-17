@@ -1,4 +1,5 @@
 import heroCss from "./hero.module.css";
+import heroLeftImg from '../../assets/img/heroLeftImg.png'
 const Hero = () => {
   return (
     <>
@@ -15,7 +16,9 @@ const Hero = () => {
           </p>
           <button>Get Started</button>
         </div>
-        <div className={heroCss.heroLeft}></div>
+        <div className={heroCss.heroLeft}>
+           <img src={heroLeftImg} alt="" />
+        </div>
       </div>
     </>
   );
