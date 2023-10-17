@@ -16,7 +16,7 @@ const Hero = () => {
             </h4>
           </div>
 
-          <button>Get Started</button>
+          <button className={heroCss.buttonHero}>Get Started</button>
         </div>
         <div className={heroCss.heroLeft}>
            <img src={heroLeftImg} alt="" />
