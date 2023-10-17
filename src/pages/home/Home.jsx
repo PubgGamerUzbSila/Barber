@@ -1,4 +1,6 @@
+import Affair from "../../components/Affair/affair";
 import Hero from "../../components/Hero/hero";
+import History from "../../components/History/history";
 import Navbar from "../../components/Navbar/navbar";
 import './Home.module.css'
 const HomePage = () => {
@@ -6,6 +8,8 @@ const HomePage = () => {
         <>
             <Navbar />
             <Hero />
+            <History />
+            <Affair />
         </>
     );  
 }

@@ -10,7 +10,7 @@ const Hero = () => {
             </h4>
           </div>
           <p>
-            It is a long established fact that a reader will be  distracted by
+            It is a long established fact that a reader will be distracted by
             the readable content of a page w hen looking at.
           </p>
           <button>Get Started</button>
