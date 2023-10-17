@@ -6,14 +6,16 @@ const Hero = () => {
       <div className={heroCss.container}>
         <div className={heroCss.heroRight}>
           <div className={heroCss.sariqOq}>
+            
             <h4>
               <span>Hairstyle</span> Reflects The Personality Inside You
-            </h4>
-          </div>
-          <p>
+              <p>
             It is a long established fact that a reader will be distracted by
             the readable content of a page w hen looking at.
           </p>
+            </h4>
+          </div>
+
           <button>Get Started</button>
         </div>
         <div className={heroCss.heroLeft}>
